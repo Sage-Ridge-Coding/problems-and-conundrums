@@ -14,6 +14,8 @@
 *
 */
 
+boolean savePDF;
+
 // Stuff you need but can safely ignore right now
 import processing.pdf.*;
 import java.util.Calendar;
