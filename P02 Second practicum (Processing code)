@@ -5,15 +5,16 @@ canvas with two potentiometers
 Adapted from Processing.org 
 */
  
-// Import the serial library. Unlinke Arduino, serial 
-// communication functions are in a loadable library
-// in Processing.
+// Import the serial library
 import processing.serial.*;
 
 // Instantiate objects of the Serial and esPen classes
 // Data received from the serial port. esPen is defined at
 // the end of this sketch. The serial port needs to be
-// manually defined. The exmaple here is for OSX (Mac).
+// manually defined. The exmaple here is for OSX (Mac). 
+// The precise port name string will depend on your OS and
+// the port the Arduino was assigned. This value is available
+// through the Arduino IDE.
 esPen myPen;
 Serial myPort;
 color initColor = color(50,50,50); // The RGB pen color
