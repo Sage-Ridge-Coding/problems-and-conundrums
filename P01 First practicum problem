@@ -52,7 +52,6 @@ if (savePDF) {
 // **Printing function. Leave here.**
 
 void keyReleased() {
-  if (key == 'c' || key == 'C') GenerativeDesign.saveASE(this, colors, timestamp()+".ase");
   if (key == 's' || key == 'S') saveFrame(timestamp()+"_##.png");
   if (key == 'p' || key == 'P') savePDF = true;
   
